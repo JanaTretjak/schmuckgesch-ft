@@ -1,4 +1,4 @@
- @media (max-width: 768px) {
+@media (max-width: 768px) {
     .carousel-inner .carousel-item > div {
         display: none;
     }
@@ -31,6 +31,25 @@
 .carousel-inner .carousel-item-left{ 
   transform: translateX(0);
 }
-
-
- */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(182, 180, 180);
+}
+.first{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.second{
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+footer{
+    background-color: rgb(46, 45, 45);
+    padding-top: 40px;
+    padding-bottom: 1%;
+}
+footer p{
+    margin-top: 10%;
+}
